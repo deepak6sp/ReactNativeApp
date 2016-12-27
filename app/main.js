@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Header from "./components/header";
-import Home from "./pages/home";
+import Home from "./modules/home";
 import Footer from "./components/footer";
 import Nav from "./components/nav";
 
