@@ -3,15 +3,14 @@ import { StyleSheet } from 'react-native';
 export default styles = StyleSheet.create({
   footer: {
   	flex:1,
-    flexDirection:'column',
-  	justifyContent: 'center',
-    alignSelf: 'stretch',
-    backgroundColor: '#333',
-    minHeight:60,
+    flexDirection:'row',
     maxHeight:60
   },
-  text:{
+  footerText:{
+    flex:1,
   	color:"#fff",
+    backgroundColor:'#333',
+    textAlignVertical:'center',
     textAlign:'center'
   }
 });
