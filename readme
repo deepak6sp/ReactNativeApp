@@ -1,0 +1,5 @@
+react-native run-ios --simulator="iPhone 4s"
+to run on android 
+a) open android studio
+b) tools-> android -> sdk manager
+c) select simulator and click run
