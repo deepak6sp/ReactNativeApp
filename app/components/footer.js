@@ -12,7 +12,8 @@ const styles = StyleSheet.create({
   	justifyContent: 'center',
     alignSelf: 'stretch',
     backgroundColor: '#333',
-    height:60
+    minHeight:60,
+    maxHeight:60
   },
   text:{
   	color:"#fff",

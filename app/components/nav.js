@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
   navBarLinksText:{
     color:'#fff',
     textAlign:'center',
-    lineHeight:60,
   }
 });
 
