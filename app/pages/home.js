@@ -7,11 +7,10 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const styles = StyleSheet.create({
   home: {
-  	flex:10,
+  	flex:8,
   	justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fff',
-    height:50
   },
   page:{
   	color:"#000"
@@ -19,7 +18,7 @@ const styles = StyleSheet.create({
 });
 
 
-export default class Header extends Component {
+export default class Home extends Component {
   render(){
       return(
         <View style={styles.home}>

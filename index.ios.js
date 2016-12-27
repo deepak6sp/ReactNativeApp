@@ -7,17 +7,14 @@
 import React, { Component } from 'react';
 import { AppRegistry, View, Text } from 'react-native';
 
-import Header from "./app/components/header";
-import Footer from "./app/components/footer";
-import Home from "./app/home/home";
+
+import Main from "./app/main";
 
 class RetailApp extends Component {
   render(){
       return(
         <View style={{flex: 1}}>
-          <Header/>
-          <Home/>
-          <Footer />
+          <Main/>
         </View>
       );
     }
