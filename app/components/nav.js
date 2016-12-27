@@ -42,23 +42,22 @@ export default class Nav extends Component {
       }
       return(
         <View style={[styles.navBar]} >
-          <TouchableHighlight style={[styles.navBarLinks,styles.navBarExpanded]}>
-            <Text style={styles.navBarLinksText}
-              onPress={() => console.log("account link")}>
+          <TouchableHighlight style={[styles.navBarLinks,styles.navBarExpanded]}
+            onPress={() => console.log("account link")}>
+            <Text style={styles.navBarLinksText}>
               {/*onPress={() => Linking.openURL('/account')}> */}
-
                 Account
             </Text>
           </TouchableHighlight>
-          <TouchableHighlight style={[styles.navBarLinks,styles.navBarExpanded]}>
-            <Text style={styles.navBarLinksText}
-              onPress={() => console.log("settings link")}>
+          <TouchableHighlight style={[styles.navBarLinks,styles.navBarExpanded]}
+            onPress={() => console.log("settings link")}>
+            <Text style={styles.navBarLinksText}>
               Settings
             </Text>
           </TouchableHighlight>
-          <TouchableHighlight style={[styles.navBarLinks,styles.navBarExpanded]}>
-            <Text style={styles.navBarLinksText}
+          <TouchableHighlight style={[styles.navBarLinks,styles.navBarExpanded]}
               onPress={() => console.log("signIn/out link")}>
+            <Text style={styles.navBarLinksText}>
               SignIn
             </Text>
           </TouchableHighlight>

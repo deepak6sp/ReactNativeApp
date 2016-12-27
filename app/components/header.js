@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
   menuText:{
     color:'#fff',
     textAlign:'center',
-    alignSelf: 'stretch',
   },
   pageTitle:{
     flex:4,
@@ -47,8 +46,8 @@ export default class Header extends Component {
 
       return(
         <View style={styles.header}>
-          <TouchableHighlight style={styles.menu} >
-            <Text style={styles.menuText} onPress={this.props.onPress}>Menu</Text>
+          <TouchableHighlight style={styles.menu} onPress={this.props.onPress} >
+            <Text style={styles.menuText} >Menu</Text>
           </TouchableHighlight>
         	<View style={styles.pageTitle}>
         		<Text style={styles.pageTitleText} color='#fff'>Page title</Text>
